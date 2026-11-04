@@ -1,0 +1,39 @@
+{
+  "versioon": "2026-06-01",
+  "allikas": "Elektrilevi võrguteenuse hinnakiri, kehtib alates 1. juuni 2026",
+  "markus": "Hinnad senti/kWh ilma käibemaksuta. Tsoonid: koik = ööpäev läbi; paev = E–R 7–22 v.a pühad; oo = muu aeg; tipp = nov–märts tööpäeviti 9–12 ja 16–20; puhkepaeva_tipp = nov–märts L, P ja pühadel 16–20. Kui paketis on tipuaeg, ei kehti päeva/öö hind tipuaja tundidel.",
+  "paketid": [
+    { "id": "vork1", "nimi": "Võrk 1", "peakaitse": "kuni63", "read": [
+      { "nimi": "Võrgutasu", "s": 7.72, "tsoon": "koik" } ] },
+    { "id": "vork2", "nimi": "Võrk 2", "peakaitse": "kuni63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 6.07, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 3.51, "tsoon": "oo" } ] },
+    { "id": "vork4", "nimi": "Võrk 4", "peakaitse": "kuni63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 3.69, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 2.10, "tsoon": "oo" } ] },
+    { "id": "vork5", "nimi": "Võrk 5", "peakaitse": "kuni63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 5.29, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 3.03, "tsoon": "oo" },
+      { "nimi": "Võrgutasu tipuaeg", "s": 8.18, "tsoon": "tipp" },
+      { "nimi": "Võrgutasu puhkepäeva tipuaeg", "s": 4.74, "tsoon": "puhkepaeva_tipp" } ] },
+    { "id": "vma2", "nimi": "Võimsus VMA2", "peakaitse": "yle63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 3.49, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 1.99, "tsoon": "oo" } ] },
+    { "id": "vml2", "nimi": "Amper VML2", "peakaitse": "yle63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 3.95, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 2.30, "tsoon": "oo" } ] },
+    { "id": "vma9", "nimi": "Võimsus Mega VMA9", "peakaitse": "yle63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 2.81, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 1.60, "tsoon": "oo" } ] },
+    { "id": "vma5", "nimi": "Võimsus Aeg VMA5", "peakaitse": "yle63", "read": [
+      { "nimi": "Võrgutasu päev", "s": 3.23, "tsoon": "paev" },
+      { "nimi": "Võrgutasu öö", "s": 1.83, "tsoon": "oo" },
+      { "nimi": "Võrgutasu tipuaeg", "s": 5.05, "tsoon": "tipp" },
+      { "nimi": "Võrgutasu puhkepäeva tipuaeg", "s": 2.83, "tsoon": "puhkepaeva_tipp" } ] }
+  ],
+  "riiklikud": [
+    { "nimi": "Taastuvenergia tasu", "s": 0.84 },
+    { "nimi": "Elektriaktsiis", "s": 0.21 },
+    { "nimi": "Varustuskindluse tasu", "s": 0.758 }
+  ]
+}
